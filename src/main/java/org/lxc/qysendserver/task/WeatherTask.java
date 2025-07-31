@@ -23,7 +23,7 @@ public class WeatherTask {
     private HttpClientUtil httpClientUtil;
 
 
-    @Scheduled(cron = "0 40 7 * * *")
+    @Scheduled(cron = "0 40 7 * * *", zone = "Asia/Shanghai")
     public void taskWeather() {
         try {
             String urlWeather = "https://restapi.amap.com/v3/weather/weatherInfo?Key=" + weatherConfig.getWeatherKey() + "&city=" + weatherConfig.getWeatherCity() + "&extensions=" + weatherConfig.getWeatherExtensions();
