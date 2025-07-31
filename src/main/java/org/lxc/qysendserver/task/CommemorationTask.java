@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.TimeZone;
 
 @EnableScheduling
 @Component
@@ -21,7 +22,7 @@ public class CommemorationTask {
     private HttpClientUtil httpClientUtil;
 
 
-    @Scheduled(cron = "0 0 9 * * 1")
+    @Scheduled(cron = "0 0 9 * * 1", zone = "Asia/Shanghai")
     public void taskCommemoration() {
         try {
             String urlQy = weComBotConfig.getSendUrl();

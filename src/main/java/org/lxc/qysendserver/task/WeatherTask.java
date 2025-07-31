@@ -2,12 +2,6 @@ package org.lxc.qysendserver.task;
 
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
-import org.apache.http.HttpEntity;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
 import org.lxc.qysendserver.config.WeComBotConfig;
 import org.lxc.qysendserver.config.WeatherConfig;
 import org.lxc.qysendserver.entity.WeatherEntity;
