@@ -1,0 +1,12 @@
+server:
+  port: 10001
+
+wecom:
+  bot:
+    webhook-url: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=0c3e5e25-c67b-4f32-94b8-273e6afaf634
+  send-url: http://ikunbase.top:10001/api/wecom-bot/send-text
+#  send-url: http://localhost:10001/api/wecom-bot/send-text
+weather:
+  key: 38865054ecab7d34d923674300e7d2bf
+  city: 320100
+  extensions: base
