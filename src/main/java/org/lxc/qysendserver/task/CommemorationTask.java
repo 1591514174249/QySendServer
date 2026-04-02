@@ -33,8 +33,8 @@ public class CommemorationTask {
                     + "农历日期: " + lunarDate + "\n"
                     + "她的生日: 十一月二十 \n"
                     + "我的生日: 六月初八\n"
-                    + "爸爸生日: \n"
-                    + "妈妈生日: \n"
+                    + "爸爸生日: 腊月十二\n"
+                    + "妈妈生日: 二月初九\n"
                     + "恋爱纪念日: 十月七日(2016) \n"
                     + "结婚纪念日: 五月一日(2025) \n";
             JSONObject jsonObject = new JSONObject();
