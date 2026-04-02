@@ -3,7 +3,7 @@ server:
 
 wecom:
   bot:
-    webhook-url: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=0c3e5e25-c67b-4f32-94b8-273e6afaf634
+    webhook-url: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=e92445df-ef70-4bcd-8afa-215cd908fe17
   send-url: http://ikunbase.top:10001/api/wecom-bot/send-text
 #  send-url: http://localhost:10001/api/wecom-bot/send-text
 weather:
