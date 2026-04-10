@@ -10,3 +10,13 @@ weather:
   key: 38865054ecab7d34d923674300e7d2bf
   city: 320100
   extensions: base
+
+personalized:
+  push:
+    enable-greeting: true
+    enable-weather-tip: true
+    enable-clothing-suggestion: true
+    enable-daily-message: true
+    cron: 0 40 7 * * *
+    city: 320100
+    daily-message: 愿你的每一天都充满阳光和希望！

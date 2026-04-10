@@ -15,6 +15,7 @@ public class WeatherEntity {
     private String reporttime;
     private String temperature_float;
     private String humidity_float;
+    private String weatherIcon;
 
 
     @Override
@@ -28,6 +29,7 @@ public class WeatherEntity {
                 ", 风速='" + windpower + '\'' +
                 ", 湿度='" + humidity + '\'' +
                 ", 时间='" + reporttime + '\'' +
+                ", 天气图标='" + weatherIcon + '\'' +
                 '}';
     }
 }
