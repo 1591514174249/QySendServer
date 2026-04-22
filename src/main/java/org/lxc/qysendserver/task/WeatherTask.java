@@ -50,7 +50,7 @@ public class WeatherTask {
      * 调用WeatherScript服务获取天气信息
      */
     private WeatherEntity getWeatherInfo() throws Exception {
-        String weatherScriptUrl = "http://localhost:9001/weather/info";
+        String weatherScriptUrl = "http://ikunbase.top:9001/weather/info";
         JSONObject weatherReq = new JSONObject();
         weatherReq.put("key", weatherConfig.getWeatherKey());
         weatherReq.put("city", personalizedConfig.getCity());
